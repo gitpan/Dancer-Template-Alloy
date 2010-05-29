@@ -4,6 +4,7 @@ use warnings;
 use Test::More 0.88;
 use Test::Exception;
 
+use Dancer 1.1801 ':syntax';
 use Dancer::FileUtils 'path';
 use Dancer::Template::Alloy;
 

@@ -19,6 +19,7 @@
       },
       "runtime" : {
          "requires" : {
+            "Dancer" : "1.1801",
             "Dancer::Config" : "0",
             "Dancer::FileUtils" : "0",
             "Dancer::ModuleLoader" : "0",
@@ -29,6 +30,7 @@
       "test" : {
          "requires" : {
             "Carp" : "0",
+            "Dancer" : "1.1801",
             "File::Find" : "0",
             "File::Temp" : "0",
             "Scalar::Util" : "0",
@@ -38,7 +40,7 @@
          }
       }
    },
-   "version" : "1.00",
+   "version" : "1.01",
    "x_Dist_Zilla" : {
       "plugins" : [
          {
@@ -204,6 +206,17 @@
          {
             "class" : "Dist::Zilla::Plugin::UploadToCPAN",
             "name" : "@DANIELP/UploadToCPAN",
+            "version" : "3.101461"
+         },
+         {
+            "class" : "Dist::Zilla::Plugin::Prereq",
+            "config" : {
+               "Dist::Zilla::Plugin::Prereq" : {
+                  "phase" : "runtime",
+                  "type" : "requires"
+               }
+            },
+            "name" : "Prereq",
             "version" : "3.101461"
          },
          {

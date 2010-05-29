@@ -1,3 +1,14 @@
+==============================
+9999-99-99 99:99:99 +0000 HEAD
+==============================
+
+  commit ce78a2a332e1ec6dcd8401c1e46722bb0fcb6496
+  Author: Daniel Pittman <daniel@rimspace.net>
+  Date:   Sat May 29 18:06:21 2010 +1000
+  
+    Explicitly depend on an appropriate version of Dancer for testing to
+    work. 
+
 ===================================
 End of changes in the last 365 days
 ===================================

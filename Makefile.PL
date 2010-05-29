@@ -13,6 +13,7 @@ my %WriteMakefileArgs = (
   'AUTHOR' => 'Daniel Pittman <daniel@rimspace.net>',
   'BUILD_REQUIRES' => {
     'Carp' => '0',
+    'Dancer' => '1.1801',
     'File::Find' => '0',
     'File::Temp' => '0',
     'Scalar::Util' => '0',
@@ -28,13 +29,14 @@ my %WriteMakefileArgs = (
   'LICENSE' => 'perl',
   'NAME' => 'Dancer::Template::Alloy',
   'PREREQ_PM' => {
+    'Dancer' => '1.1801',
     'Dancer::Config' => '0',
     'Dancer::FileUtils' => '0',
     'Dancer::ModuleLoader' => '0',
     'Dancer::Template::Abstract' => '0',
     'Template::Alloy' => '0'
   },
-  'VERSION' => '1.00',
+  'VERSION' => '1.01',
   'test' => {
     'TESTS' => 't/*.t'
   }

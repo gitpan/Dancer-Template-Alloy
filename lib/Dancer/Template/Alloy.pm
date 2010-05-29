@@ -1,6 +1,6 @@
 package Dancer::Template::Alloy;
 BEGIN {
-  $Dancer::Template::Alloy::VERSION = '1.00';
+  $Dancer::Template::Alloy::VERSION = '1.01';
 }
 use strict;
 use warnings;
@@ -53,7 +53,7 @@ Dancer::Template::Alloy - Template::Alloy wrapper for Dancer
 
 =head1 VERSION
 
-version 1.00
+version 1.01
 
 =head1 DESCRIPTION
 
