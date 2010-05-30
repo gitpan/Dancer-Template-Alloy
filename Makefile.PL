@@ -12,14 +12,11 @@ my %WriteMakefileArgs = (
   'ABSTRACT' => 'Template::Alloy wrapper for Dancer',
   'AUTHOR' => 'Daniel Pittman <daniel@rimspace.net>',
   'BUILD_REQUIRES' => {
-    'Carp' => '0',
     'Dancer' => '1.1801',
     'File::Find' => '0',
     'File::Temp' => '0',
-    'Scalar::Util' => '0',
     'Test::Exception' => '0',
-    'Test::More' => '0.94',
-    'perl' => '5.004'
+    'Test::More' => '0.88'
   },
   'CONFIGURE_REQUIRES' => {
     'ExtUtils::MakeMaker' => '6.31'
@@ -36,7 +33,7 @@ my %WriteMakefileArgs = (
     'Dancer::Template::Abstract' => '0',
     'Template::Alloy' => '0'
   },
-  'VERSION' => '1.01',
+  'VERSION' => '1.02',
   'test' => {
     'TESTS' => 't/*.t'
   }

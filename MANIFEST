@@ -8,7 +8,7 @@ README
 dist.ini
 lib/Dancer/Template/Alloy.pm
 t/00-compile.t
-t/000-report-versions.t
+t/000-report-versions-tiny.t
 t/basic.tt
 t/engine-rendering.t
 t/release-distmeta.t

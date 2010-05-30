@@ -29,18 +29,15 @@
       },
       "test" : {
          "requires" : {
-            "Carp" : "0",
             "Dancer" : "1.1801",
             "File::Find" : "0",
             "File::Temp" : "0",
-            "Scalar::Util" : "0",
             "Test::Exception" : "0",
-            "Test::More" : "0.94",
-            "perl" : "5.004"
+            "Test::More" : "0.88"
          }
       }
    },
-   "version" : "1.01",
+   "version" : "1.02",
    "x_Dist_Zilla" : {
       "plugins" : [
          {
@@ -89,9 +86,9 @@
             "version" : "3.101461"
          },
          {
-            "class" : "Dist::Zilla::Plugin::ReportVersions",
-            "name" : "@DANIELP/ReportVersions",
-            "version" : "1.101460"
+            "class" : "Dist::Zilla::Plugin::ReportVersions::Tiny",
+            "name" : "@DANIELP/ReportVersions::Tiny",
+            "version" : "1.01"
          },
          {
             "class" : "Dist::Zilla::Plugin::CompileTests",
